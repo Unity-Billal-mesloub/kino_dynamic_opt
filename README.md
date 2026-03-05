@@ -37,7 +37,7 @@ Clone the repository in the desired work folder <work_folder>
 ```
 mkdir devel
 cd devel
-git clone https://github.com/machines-in-motion/treep_machines_in_motion.git
+git clone https://github.com/Unity-Billal-mesloub/treep_machines_in_motion.git
 treep --clone KINO_DYN_PLANNER
 ```
 This operation should have cloned pacakges in `workspace/src/` which will be
@@ -101,10 +101,6 @@ Executing
 python3 ../nodes/kino_dyn_planner -i <path_to_config_file>
 ```
 automatically saves the `quadruped_positions.dat` and the `quadruped_velocities.dat` files in the `<work_folder>/kino-dynamic-opt/src/catkin/motion_planning/momentumopt/demos` directory. These files can then be supplied to dynamic graph and for example executed on the real robot.
-
-## License
-
-Copyright (c) 2019, New York University and Max Planck Gesellschaft.
 
 ## Authors
 
